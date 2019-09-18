@@ -1,0 +1,73 @@
+
+page{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top:0%;
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+}
+.banner{position: relative;width: 100%;}
+.scroll1{
+    position: relative;
+    width: 100%;
+    height: 63%;
+    left: 0%;
+    background-color: #f1f1f1;
+    
+}
+.scroll1 .title{
+  background: #fff;
+  padding:27rpx;
+  border-bottom: 1px solid #f1f1f1;
+  color: rgb(116, 113, 113);
+}
+.scroll1 .main{
+  background: #fff;
+}
+.scroll1 .main view{
+  padding: 27rpx;
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  justify-content:space-between;
+  align-items:center ;
+}
+.arrow{
+  width: 200rpx;
+  height: 200rpx;
+  zoom: 0.3;
+}
+/* 在线客服 */
+
+.online{
+  position: fixed;
+  width: 230px;
+  height: 200px;
+  background: none;
+  right: 0%;
+  top:65%;
+  zoom:0.35;
+}
+
+.title{
+  font-size: 30rpx;
+  background: #fff;
+}
+ 
+.chat_button {
+  background: none;
+}
+ 
+.chat_button:after {
+  border: 0px;
+}
+ 
+.chat_image {
+  width: 239rpx;
+  height: 200rpx;
+}
+.txt{
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+
+<scroll-view scroll-y class='scroll1'>
+    <view class='message'>
+        <view class='send'>
+          <view class='msg'>
+            <image src='/images/service.png' class='headimg'  mode="widthFix"></image>
+            <view class='p'>
+                <image src='/images/msg-input.png' class='msg_input'  mode="widthFix"></image>
+                <text>{{answerArr[index]}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+  </scroll-view>
+  <view class='online'>
+      <button class="chat_button" open-type="contact" session-from="weapp">
+        <image class="chat_image" src="/images/chat.png"></image>
+      </button>
+      <view class='txt'>在线客服</view>
+  </view>
+
+</view>

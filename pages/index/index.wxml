@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <image src='/images/banner.jpg' mode="widthFix" class='banner'></image>
+      
+      <scroll-view scroll-y class='scroll1'>
+      <view class='title'>常见问题</view>
+      <view class='main'>
+          <view wx:for="{{array}}" wx:key="item" data-id='{{index}}' bindtap='sendQus'>
+            {{array[index]}}
+            <image src='/images/arrow.png' class='arrow'></image>
+          </view>
+      </view>
+        
+      </scroll-view>
+      <button class="chat_button" open-type="contact" session-from="weapp"></button>
+    <!-- <view class='online'>
+        <button class="chat_button" open-type="contact" session-from="weapp">
+          <image class="chat_image" src="/images/chat.png"></image>
+        </button>
+        <view class='txt'>在线客服</view>
+    </view> -->
+
+</view>
